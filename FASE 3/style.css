@@ -1,0 +1,48 @@
+.contenedor{
+    display: grid;
+    grid-template-areas:
+    
+    'A A A A'
+    'B B B B'
+    'C D D D'
+    'E E E E';
+}
+
+header {
+    grid-area: A;
+    background-color:#F6F1F1 ;
+
+}
+
+aside {
+    grid-area: D;
+    background-color: #19A7CE;
+}
+
+main {
+
+    grid-area: C;
+    background-color:#146C94 ;
+}
+
+footer{
+    grid-area: D;
+    background-color:#F6F1F1;
+}
+.menu-aside {
+
+list-style: none;
+
+
+} 
+
+.menu-aside a {
+
+    text-decoration: none;
+    padding:10px 40px ;
+    margin: 4px;
+    background-color: blue;
+    color: white;
+    display: block;
+
+}

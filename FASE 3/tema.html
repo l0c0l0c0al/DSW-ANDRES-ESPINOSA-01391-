@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Menù Lateral con Css</title>
+	<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+	<header class="header">
+		<div class="container">
+		<div class="btn-menu">
+			<label for="btn-menu">☰</label>
+		</div>
+			<div class="logo">
+				<h1>CSS</h1>
+			</div>
+			<nav class="menu">
+				<a href="index.html">Inicio</a>
+				<a href="#">Tema</a>
+				<a href="#">Blog</a>
+				<a href="#">Contacto</a>
+			</nav>
+		</div>
+	</header>
+
+	
+	
+	<div class="capa"></div>
+<!--	--------------->
+<input type="checkbox" id="btn-menu">
+<div class="container-menu">
+	<div class="cont-menu">
+		<nav>
+			<a href="index.html">Inicio</a>
+			<a href="audio.html">Audio del tema</a>
+			<a href="tema.html">El tema </a>
+			<a href="nosotros.html">Nosotros</a>
+			
+		</nav>
+		<label for="btn-menu">✖️</label>
+
+	</div>
+	
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<center>
+	
+	<h1 class="titulo">CSS</h1>
+
+</center>
+
+	<p class="parrafo">
+
+		        Un selector CSS es la primera parte de una regla CSS.
+				Es un patrón de elementos y otros términos que indican al navegador qué elementos HTML se seleccionan para aplicarles 
+				una regla que incluye los valores de las propiedades CSS. El elemento o los elementos seleccionados por el selector se 
+				denominan sujeto del selector.
+           </p>
+
+		   <center>
+		    <br>
+				<img src="Imagenes/css-declaration-small.png" width="200" height="100" >
+
+			</center>
+	        <br>
+				<p class="parrafo">
+				
+				En CSS, los selectores se definen en la especificación de selectores de CSS correspondiente; 
+			    al igual que cualquier otro elemento de CSS, es necesario que los navegadores los admitan para que funcionen.
+				La mayoría de los selectores que encontrarás se definen en especificación de nivel 3 de selectores, que es una especificación consolidada y, 
+				por lo tanto, la mayoría de navegadores admitirán esos selectores.
+		   
+			</p> 
+       <br>
+       <br>
+       <br>
+			
+
+			<h2 class="titulo">LISTADO DE SELECTORE</h2> 
+
+			<p class="parrafo">
+			<br>	
+         Si más de un elemento utiliza el mismo CSS, puedes combinar los selectores en una lista de selectores para que la regla se aplique a cada uno de los selectores individuales. 
+         Por ejemplo, si tengo el mismo CSS para un h1 y para una clase .special, los puedo escribir como dos reglas separadas.
+         <br>
+        h1 {
+          color: blue;
+        }
+        
+        .special {
+          color: blue;
+        }
+        <br>
+        
+        También los podrías combinar en una lista de selectores, separándolos con una coma.
+        <br>
+        h1, .special {
+          color: blue;
+        }
+        <br>
+        Es posible dejar un espacio en blanco tanto antes como después de la coma. Incluso puede resultar más legible si cada selector se encuentra en una línea distinta.
+        <br>
+        h1,
+        .special {
+          color: blue;
+        }
+        
+        <br>
+        En el ejemplo siguiente, intenta combinar los dos selectores de modo que tengan la misma declaración. El aspecto visual debe permanecer igual tras la combinación.
+        
+        
+        Cuando agrupas los selectores de esta manera, si alguno de los selectores no es válido, el navegador sencillamente ignora toda la regla.
+        
+        En el ejemplo siguiente, la regla que corresponde al selector de clase que no es válido se ignora, mientras que el estilo se aplica al elemento h1.
+        <br>
+        h1 {
+          color: blue;
+        }
+        
+        ..special {
+          color: blue;
+        }
+        <br>
+      
+        Sin embargo, si se combinan, toda la regla se considera no válida y no se aplicará estilo ni a h1 ni a la clase.
+        <br>
+        h1, ..special {
+          color: blue;
+        }
+
+		</p>
+
+		<br>
+	<footer>
+      
+		<img src="Imagenes/UNAD1.jpg" width="1550" height="200" >
+
+	</footer>
+
+</body>
+
+
+
+</html>
